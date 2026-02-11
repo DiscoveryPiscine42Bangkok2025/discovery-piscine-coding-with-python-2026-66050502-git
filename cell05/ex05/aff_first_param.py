@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+# ?> ./aff_first_param.py | cat -e
+# none$
+# ?> ./aff_first_param.py "Code Ninja" "Numerique" "42" | cat -e
+# Code Ninja$
+
+import sys
+if len(sys.argv) == 1:
+    print("none")
+else:
+    print(sys.argv[1])
+
