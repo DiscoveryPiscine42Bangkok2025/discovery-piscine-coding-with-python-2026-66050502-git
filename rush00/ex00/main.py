@@ -4,9 +4,9 @@ def main():
 
     board = """\
 ....
+.K..
 ....
-..K.
-.R.P\
+R..P\
 """
     checkmate(board)
 

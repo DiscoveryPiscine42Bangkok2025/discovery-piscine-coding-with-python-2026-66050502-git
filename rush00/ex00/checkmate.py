@@ -79,6 +79,7 @@ def checkmate(board):
             break
     # ------------------------------------ BISHOP QUEEN CHECK ------------------------------------
     n = len(board)
+    # down-right
     x, y = kPositionX + 1, kPositionY + 1
     while 0 <= x < n and 0 <= y < n:
         piece = board[y][x]
